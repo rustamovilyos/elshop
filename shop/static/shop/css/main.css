@@ -85,24 +85,13 @@ body{
 footer{
   opacity: 0.95;
 }
-.tv-img{
-  width: 200px;
-  margin-top: 4px;
-  border-radius: 18px;
-  transition: box-shadow 1.3s;
 
-}
-
-.tv-img:hover{
-  transform: rotateZ(5deg);
-  box-shadow: 0 0 65px white;
-}
 
 .shadow-sm{
   border-radius: 6px;
   margin: 4px;
   border: 1px solid #223366;
-  background-color: rgba(180, 190, 225, 0.7);
+  background-color: rgba(150, 190, 225, 0.7);
   }
 
 .text-muteed{
@@ -145,4 +134,34 @@ sup{
 .toifa-nomi:hover{
   color: black;
   background: white !important;
+}
+/*.rasm_bloki{
+  border: solid 1px white;
+  width: 174px;
+  height: 200px;
+  margin-bottom: 6px;
+  margin-top: 2px;
+}
+.tv-img{
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  transition: box-shadow 1s;
+}*/
+
+.tv-img:hover{
+  transform: rotateY(6deg);
+  animation-duration: 3s;
+  border-radius: 20px;
+  box-shadow: 0 0 65px white;
+}
+.rasm_bloki{
+  width: 175px;
+  height: 180px;
+  margin-bottom: 5px;
+  margin-top: 3px;
+}
+.rasm_bloki img{
+  display: block;
+  height: 98%;
 }

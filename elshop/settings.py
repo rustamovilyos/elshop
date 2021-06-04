@@ -1,5 +1,5 @@
 from pathlib import Path
-
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -9,13 +9,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-y_75qc!#*o!$tmo-yjчччg4(6i^mwf79h(^^v(%827=4v1i#oc$b'
+SECRET_KEY = 'django-insecure-y_75qc!#*o!$tmo-yjeeedfsfsgsgg4(6i^mwf79h(^^v(%827=4v1i#oc$b'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '97b0e13e6aa3.ngrok.io',
+    '33f5d6a76308.ngrok.io',
     '127.0.0.1:8000',
     "127.0.0.1"
 ]
@@ -116,6 +116,10 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+MEDIA_URL = '/media/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field

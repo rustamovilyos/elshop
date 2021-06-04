@@ -1,14 +1,10 @@
 from django.urls import path
 from . import views
+from django.conf import settings
+from django.conf.urls.static import static
 
 
 urlpatterns = [
     path('', views.index, name='index'),
-    # path("one/", views.one, name='one'),
-    # path("two/", views.two, name='two'),
-    # path("three/", views.three, name='three'),
-    # path("four/", views.four, name='four'),
-    # path("five/", views.five, name='five'),
-    # path("six/", views.six, name='six'),
-    # path('test/', views.test, name='test'),
-]
+    path('category/<int:category_id>/', views.category, name='category')
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
