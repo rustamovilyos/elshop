@@ -5,14 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/elshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/elshop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/elshop/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop/static/shop/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/shop/static/shop/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/static/shop/img/A21s.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/static/shop/img/iP12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/static/shop/img/TUF-Gaming-.png" beforeDir="false" afterPath="$PROJECT_DIR$/shop/static/shop/img/TUF-Gaming-.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop/templates/shop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/templates/shop/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

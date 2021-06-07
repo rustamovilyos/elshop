@@ -6,18 +6,19 @@ from django.core.paginator import Paginator
 
 
 def index(request):
-    toifa = Toifa.objects.get(pk=1)
-    mahsulotlar = Mahsulot.objects.filter(toifasi=toifa)
+    mahsulotlar = Mahsulot.objects.all()
     toifalar = Toifa.objects.all()
     return render(request, 'shop/index.html', {'kategoriyalar': toifalar, 'mahsulotlar': mahsulotlar})
 
 
 def category(request, category_id):
+    page = request.GET.get('page')
     toifa = Toifa.objects.get(pk=category_id)
-    mahsulotlar = Mahsulot.objects.filter(toifasi=toifa)
+    all_mahsulotlar = Mahsulot.objects.filter(toifasi=toifa)
+    paginator = Paginator(all_mahsulotlar, 3)
+    mahsulotlar = paginator.get_page(page)
     toifalar = Toifa.objects.all()
     return render(request, 'shop/index.html', {'kategoriyalar': toifalar, 'mahsulotlar': mahsulotlar})
-
 
 # def one(request):
 #     return render(request, 'shop/bir.html')
