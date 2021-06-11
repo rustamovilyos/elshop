@@ -4,10 +4,15 @@
     <list default="true" id="c3fd3d0e-f135-4274-88bb-99faa7c74c36" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/elshop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/static/shop/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/shop/static/shop/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/static/shop/img/TUF-Gaming-.png" beforeDir="false" afterPath="$PROJECT_DIR$/shop/static/shop/img/TUF-Gaming-.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/templates/shop/besh.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/templates/shop/bir.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/templates/shop/ikki.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shop/templates/shop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/templates/shop/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/templates/shop/olti.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/templates/shop/turt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/templates/shop/uch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
